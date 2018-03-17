@@ -1,0 +1,68 @@
+page-register {
+    .item-md.item-block .item-inner {
+        padding-right: 0px;
+        border-bottom: 1px solid #dedede;
+    }
+    .text-input-md {
+        margin: 13px 2px;
+        padding: 0;
+        width: calc(100% - 8px - 8px);
+    }
+    .icon{
+        color:grey;
+        width: 10px;
+        margin-right: 0px;
+        margin-bottom: -2% !important;
+    }
+    .input-wrapper{
+        margin-bottom: -8%;
+    }
+    .background{
+        background-image: url('../assets/imgs/friends.png');
+        background-size: cover; 
+    }
+    .item{
+        background: transparent !important;
+        width: 95%;
+        color:white;
+        size:8em;
+    }
+    .form{
+        padding-top: 3%;
+        position:relative;
+        // background: transparent !important;
+    }
+
+    .button-round-md {
+        background: transparent;
+        border: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        padding: 0 2.6rem;
+        width: 65%;
+        position:relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 19%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .shadow{
+        margin: 0 auto;
+        width: 80%;
+        height: 40%;
+        margin-top: 25%;
+        position:relative;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .shadow:hover .image {
+        opacity: 0.3;
+    }
+
+    font{
+        size:21px;
+        color:white;
+    }
+}
